@@ -1,4 +1,5 @@
 grisecito = #F5F5F5
+grisezote = #9B9B9B
 @import "style.css"
 a
 	text-decoration none
@@ -22,8 +23,8 @@ body
 	background url('imagen.jpg')
 	background-position center
 	.menu
-		background #151515
-		opacity .4
+		background grisezote
+		opacity .8
 		position absolute
 		transition .2s all ease-in
 		right 0
@@ -42,6 +43,25 @@ body
 .canciones
 	text-align center
 	margin-top 3em
+footer
+	text-align center
+	margin-top 3em
+	.twit
+		margin-left .2em
+		&:before
+		&:after
+			content '-'
+	
+		a
+			color #DD4F24
+@media screen and (max-width: 400px)
+	.container
+		margin-top 3em
+	.titulo
+		text-align center
+		font-size 190em
+	span
+		margin-top 1em
 @media screen and (max-width: 758px)
 	.titulo
 		text-align center
@@ -52,9 +72,3 @@ body
 		ul
 			li
 				display inline-block
-@media screen and (max-width: 400px)
-	.titulo
-		text-align center
-		font-size 7em
-	.menu
-		margin-bottom 1.6em
