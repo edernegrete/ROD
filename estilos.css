@@ -13,4 +13,6 @@ body{background:#f5f5f5;font-family:'Roboto',sans-serif;font-size:16px;margin:0;
 @media screen and (max-width: 758px){.titulo{text-align:center;font-size:10em}
 .canciones{margin-top:1.5em}
 .menu ul li{display:inline-block}
+}@media screen and (max-width: 400px){.titulo{text-align:center;font-size:7em}
+.menu{margin-bottom:1.6em}
 }
